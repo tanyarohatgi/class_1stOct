@@ -6,12 +6,13 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 library(knitr)
 ```
-```{r}
+```{r, message=FALSE}
 x <- read_csv("polls_IT-parliament_2018-10-01.csv")
 ```
 
+The purpose of this document is to show polling results in Italy.
 
